@@ -1,0 +1,26 @@
+{
+  "name": "ms_to_png",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "keywords": ["heroku"],
+  "author": "kicha",
+  "license": "ISC",
+  "dependencies": {
+    "convert-svg-to-png": "^0.5.0",
+    "express": "^4.17.1",
+    "milsymbol": "^2.0.0"
+  },
+  "engines": {
+  "node": "10.x"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
